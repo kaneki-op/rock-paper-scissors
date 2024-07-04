@@ -20,7 +20,7 @@ function getComputerChoice(max) {
 // and returning based on their choice
 
 function getHumanChoice() {
-    choice = prompt("which one would you like to choose please type 1,2,3\n 1.rock 2.paper 3.scissors","");
+    choice = prompt("which one would you like to choose \n 1.rock 2.paper 3.scissors","");
     //console.log(choice)
     if (choice==1 || choice=='rock' || choice=='Rock') {
         choice = 'rock';
