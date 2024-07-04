@@ -44,4 +44,8 @@ function getHumanChoice() {
         alert("Please Enter from the choice")
     }
 }
-getHumanChoice()
+//getHumanChoice()
+
+let humanScore = 0;
+let computerScore = 0;
+console.log(humanScore)
