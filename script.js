@@ -94,3 +94,31 @@ function playRound(getComputerChoice,getHumanChoice) {
     }
 }
 //playRound()
+//creating playGame function calling playRound 5 times
+
+getComputerChoice(3);
+getHumanChoice();
+playRound();
+console.log();
+getComputerChoice(3);
+getHumanChoice();
+playRound();
+console.log();
+getComputerChoice(3);
+getHumanChoice();
+playRound();
+console.log();
+getComputerChoice(3);
+getHumanChoice();
+playRound();
+console.log();
+getComputerChoice(3);
+getHumanChoice();
+playRound();
+
+if (humanScore>computerScore) {
+    alert("winner is you");
+}
+else {
+    alert("Winner is computer")
+}
